@@ -1,0 +1,20 @@
+.drop-shadow{
+    width: 707px;
+    height: 707px;
+    object-fit: cover;
+    box-shadow: -10px 10px 0 blue;
+    border-radius: 15px;
+    margin-left: 240px;
+}
+
+.text{
+    display: flex;
+    align-items: flex-start; /* <— aligns top of image and text */
+    gap: 20px;
+    padding: 40px;
+    Font-family: "HELVETICA";
+}
+
+.Title{
+    Font-family: "HELVETICANEUELTGEO";
+}
