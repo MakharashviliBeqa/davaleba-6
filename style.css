@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0 20px;
+    margin-top: 200px;
+}
+
+.drop-shadow{
+    max-width: 707px;
+    max-height: 707px;
+    object-fit: cover;
+    box-shadow: -8px 8px 0 blue;
+    border-radius: 15px;
+    margin-left: 240px;
+}
+
+.text title {
+    display: flex;
+    padding: 40px;
+    flex-grow: 1;
+}
+
+.text-container{
+    margin-left: 138px;
+    margin-right: 362px;
+    margin-top: -180px;
+}
+
+.text{
+    font-family: "Font 1";
+}
+
+.Title{
+    font-family: "Font 2";
+}
