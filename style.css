@@ -35,148 +35,114 @@
     font-family: "Font 2";
 }
 
-
-
 .projects-section {
-    margin-top: 3902px;
+    margin-top: 800px; 
+    font-family: "BPG Glaho Bold", sans-serif;
+    overflow-x: hidden;
     position: relative;
+}
+
+.projects-container {
+    padding: 0 240px;
+}
+
+.blue-background {
+    background: #0A22F4; 
     width: 100%;
-  }
-  
-  .blue-background {
+    height: 308px; 
+    position: relative; 
+}
+
+.chevron-pattern {
+    background: url('https://img.freepik.com/free-vector/blue-white-zig-zag-backgrounds_78370-3163.jpg?t=st=1746441878~exp=1746445478~hmac=49a5ad7d50bc53c5461cfa2bd46f8eb20444751629e71a1e702d1affd32d81e6&w=1380'); 
     width: 100%;
-    max-width: 1920px;
-    height: 308px;
-    background-color: #0A22F4;
-    margin: 0 auto;
-    position: relative;
-  }
-  
-  .section-title {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    font-size: 32px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    padding-top: 40px;
-    margin-left: 240px;
-  }
-  
-  .indicator-dots {
+    height: 100%;
+    opacity: 0.2;
     position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section-title {
+    color: #ffffff;
+    font: normal normal bold 32px/39px "Helvetica Neue", sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 38px;
+}
+
+.indicator-dots {
     display: flex;
-    gap: 30px;
-    top: 240px;
-    right: 240px;
-  }
-  
-  .dot {
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.dot {
     width: 10px;
     height: 10px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 50%;
-  }
-  
-  .dot.active {
-    opacity: 1;
-  }
-  
-  .dot:not(.active) {
     opacity: 0.3;
-  }
-  
-  .container {
-    max-width: 1475px;
-    margin: 0 auto;
-    position: relative;
-  }
-  
-  .projects-wrapper {
+}
+
+.dot.active {
+    opacity: 1;
+}
+
+.projects-wrapper {
     display: flex;
-    justify-content: space-between;
-    margin-top: -100px;
-    z-index: 2;
-    position: relative;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-  
-  .project-card {
+    justify-content: center;
+    gap: 25px;
+    margin-top: -154px; 
+}
+
+.project-card {
     width: 463px;
     height: 420px;
     border-radius: 15px;
-    position: relative;
     overflow: hidden;
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-  
-  .project-card.featured {
-    margin-top: -50px;
-    box-shadow: 0px 10px 30px rgba(10, 34, 244, 0.2);
-  }
-  
-  .project-image {
-    position: absolute;
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img.project-image {
     width: 100%;
     height: 100%;
+    object-fit: cover;
     border-radius: 15px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: 0;
-  }
-  
-  
-  .image-1 {
-    background-image: url('Photos/Rectangle\ 18.png');
-  }
-  
-  .image-2 {
-    background-image: url('Photos/Rectangle\ 19.png');
-  }
-  
-  .image-3 {
-    background-image: url('Photos/Rectangle\ 20.png');
-  }
-  
-  .project-description {
-    position: relative;
-    width: 443px;
-    height: 125px;
-    background: rgba(255, 255, 255, 0.8);
+}
+
+.project-card.featured {
+    box-shadow: 0px 10px 30px #0A22F433;
+}
+
+.project-description {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    right: 10px;
+    height: 100px;
+    background: #ffffff;
     border-radius: 12px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    padding: 20px;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 18px;
-    line-height: 22px;
-    text-transform: uppercase;
-    color: #171717;
-    margin: 0 auto 20px auto;
-    z-index: 1;
-  }
-  
-  .project-description.bold {
+    padding: 15px;
+    font-family: "BPG Glaho Bold", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000;
+}
+
+.project-description.bold {
     font-weight: bold;
-    line-height: 23px;
-  }
-  
-  .more-projects {
-    text-align: right;
-    margin-top: 70px;
-    padding-right: 240px;
-  }
-  
-  .more-projects-text {
-    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.more-projects {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.more-projects-text {
     font-weight: bold;
-    font-size: 18px;
-    line-height: 23px;
-    color: #171717;
-    text-transform: uppercase;
-  }
-  
+    color: #000;
+    text-decoration: underline;
+}
